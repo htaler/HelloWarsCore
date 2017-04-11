@@ -15,7 +15,6 @@ namespace HelloWars.ArenaServer
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseStartup<Startup>()
-                .UseApplicationInsights()
                 .Build();
 
             host.Run();
