@@ -1,17 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.0
+VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWars.Common", "HelloWars\HelloWars.Common.csproj", "{C7187CA2-416B-41F8-BF97-76AC73DFFEFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWars.Common", "HelloWars\HelloWars.Common.csproj", "{C7187CA2-416B-41F8-BF97-76AC73DFFEFD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2273AB00-04C1-4B58-94F2-976C32860A1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWars.ArenaServer", "HelloWars.ArenaServer\HelloWars.ArenaServer.csproj", "{AF28CEE9-7F85-4269-BD24-FCE09BDF0BE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWars.ArenaServer", "HelloWars.ArenaServer\HelloWars.ArenaServer.csproj", "{AF28CEE9-7F85-4269-BD24-FCE09BDF0BE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWars.ArenaServer.Tests", "HelloWars.ArenaServer.Tests\HelloWars.ArenaServer.Tests.csproj", "{B5F8749F-4586-462E-AF6B-BB6A7F6A09FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWars.ArenaServer.Tests", "HelloWars.ArenaServer.Tests\HelloWars.ArenaServer.Tests.csproj", "{B5F8749F-4586-462E-AF6B-BB6A7F6A09FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWars.Models.Tests", "ModelsTests\HelloWars.Models.Tests.csproj", "{5FADEC43-1F47-4340-99FE-561AE3EBEC59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWars.Models.Tests", "ModelsTests\HelloWars.Models.Tests.csproj", "{5FADEC43-1F47-4340-99FE-561AE3EBEC59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWars.ArenaRunner", "HelloWars.ArenaRunner\HelloWars.ArenaRunner.csproj", "{124DCA40-8291-4D4C-8F41-98CF85546D26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWars.ExampleBot", "HelloWars.ExampleBot\HelloWars.ExampleBot.csproj", "{2E2B990E-AD11-4386-A462-4B904D7B7C34}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,14 @@ Global
 		{5FADEC43-1F47-4340-99FE-561AE3EBEC59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FADEC43-1F47-4340-99FE-561AE3EBEC59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FADEC43-1F47-4340-99FE-561AE3EBEC59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{124DCA40-8291-4D4C-8F41-98CF85546D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{124DCA40-8291-4D4C-8F41-98CF85546D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{124DCA40-8291-4D4C-8F41-98CF85546D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{124DCA40-8291-4D4C-8F41-98CF85546D26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E2B990E-AD11-4386-A462-4B904D7B7C34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E2B990E-AD11-4386-A462-4B904D7B7C34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E2B990E-AD11-4386-A462-4B904D7B7C34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E2B990E-AD11-4386-A462-4B904D7B7C34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
