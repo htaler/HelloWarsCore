@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWars.ArenaRunner", "He
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWars.ExampleBot", "HelloWars.ExampleBot\HelloWars.ExampleBot.csproj", "{2E2B990E-AD11-4386-A462-4B904D7B7C34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWars.ExampleBot.Tests", "HelloWars.ExampleBot.Tests\HelloWars.ExampleBot.Tests.csproj", "{AAD3F093-2D02-4E97-9679-52EF188C4BF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{2E2B990E-AD11-4386-A462-4B904D7B7C34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E2B990E-AD11-4386-A462-4B904D7B7C34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E2B990E-AD11-4386-A462-4B904D7B7C34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAD3F093-2D02-4E97-9679-52EF188C4BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAD3F093-2D02-4E97-9679-52EF188C4BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAD3F093-2D02-4E97-9679-52EF188C4BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAD3F093-2D02-4E97-9679-52EF188C4BF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,5 +60,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B5F8749F-4586-462E-AF6B-BB6A7F6A09FE} = {2273AB00-04C1-4B58-94F2-976C32860A1C}
 		{5FADEC43-1F47-4340-99FE-561AE3EBEC59} = {2273AB00-04C1-4B58-94F2-976C32860A1C}
+		{AAD3F093-2D02-4E97-9679-52EF188C4BF2} = {2273AB00-04C1-4B58-94F2-976C32860A1C}
 	EndGlobalSection
 EndGlobal
