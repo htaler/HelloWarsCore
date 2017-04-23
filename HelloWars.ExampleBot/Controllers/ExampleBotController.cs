@@ -37,12 +37,14 @@ namespace HelloWars.ExampleBot.Controllers
 
             return bot;
         }
-        // TODO: Add models for arena info
+       
         // TODO: Add general interface
         [HttpPost]
-        public BotMove PerformNextMove()
+        public BotMove PerformNextMove(BotArenaInfo arenaInfo)
         {
-            return new BotMove() { Action = BotAction.FireMissile, Direction = MoveDirection.Down, FireDirection = MoveDirection.Down };
+            var aiService = new TankBlasterSimpleAIService(false, true, 99999, 8);
+            var result = aiService.CalculateNextMove(arenaInfo);
+            return result;
         }
        
     }
