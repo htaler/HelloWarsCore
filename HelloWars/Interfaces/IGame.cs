@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Common.Models;
+using HelloWars.Common.Models;
 
-namespace Common.Interfaces
+namespace HelloWars.Common.Interfaces
 {
     public interface IGame
     {

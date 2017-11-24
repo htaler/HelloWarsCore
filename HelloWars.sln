@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.3
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWars.Common", "HelloWars\HelloWars.Common.csproj", "{C7187CA2-416B-41F8-BF97-76AC73DFFEFD}"
 EndProject
@@ -13,11 +13,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWars.ArenaServer.Tests
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWars.Models.Tests", "ModelsTests\HelloWars.Models.Tests.csproj", "{5FADEC43-1F47-4340-99FE-561AE3EBEC59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWars.ArenaRunner", "HelloWars.ArenaRunner\HelloWars.ArenaRunner.csproj", "{124DCA40-8291-4D4C-8F41-98CF85546D26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWars.ArenaRunner", "HelloWars.ArenaRunner\HelloWars.ArenaRunner.csproj", "{124DCA40-8291-4D4C-8F41-98CF85546D26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWars.ExampleBot", "HelloWars.ExampleBot\HelloWars.ExampleBot.csproj", "{2E2B990E-AD11-4386-A462-4B904D7B7C34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWars.ExampleBot", "HelloWars.ExampleBot\HelloWars.ExampleBot.csproj", "{2E2B990E-AD11-4386-A462-4B904D7B7C34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWars.ExampleBot.Tests", "HelloWars.ExampleBot.Tests\HelloWars.ExampleBot.Tests.csproj", "{AAD3F093-2D02-4E97-9679-52EF188C4BF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWars.ExampleBot.Tests", "HelloWars.ExampleBot.Tests\HelloWars.ExampleBot.Tests.csproj", "{AAD3F093-2D02-4E97-9679-52EF188C4BF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Eliminations", "Eliminations", "{1E691B54-EA6F-40AF-9072-90E0D4ECE026}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Elimination.RoundRobin", "Eliminations\Elimination.RoundRobin\Elimination.RoundRobin.csproj", "{E6D3793E-366A-453E-945C-5EB33AD536E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Elimination.TournamentLadder", "Eliminations\Elimination.TournamentLadder\Elimination.TournamentLadder.csproj", "{1DA6EDB8-4B2B-409E-9CB6-989F887E234D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{669E291E-92E1-44B6-A2ED-703BAF1535AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.TankBlaster", "Games\Game.TankBlaster\Game.TankBlaster.csproj", "{DE2145F6-12B6-4FA5-92B6-5487328C4642}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +63,18 @@ Global
 		{AAD3F093-2D02-4E97-9679-52EF188C4BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAD3F093-2D02-4E97-9679-52EF188C4BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAD3F093-2D02-4E97-9679-52EF188C4BF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6D3793E-366A-453E-945C-5EB33AD536E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6D3793E-366A-453E-945C-5EB33AD536E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6D3793E-366A-453E-945C-5EB33AD536E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6D3793E-366A-453E-945C-5EB33AD536E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DA6EDB8-4B2B-409E-9CB6-989F887E234D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DA6EDB8-4B2B-409E-9CB6-989F887E234D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DA6EDB8-4B2B-409E-9CB6-989F887E234D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DA6EDB8-4B2B-409E-9CB6-989F887E234D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE2145F6-12B6-4FA5-92B6-5487328C4642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE2145F6-12B6-4FA5-92B6-5487328C4642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE2145F6-12B6-4FA5-92B6-5487328C4642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE2145F6-12B6-4FA5-92B6-5487328C4642}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,5 +83,11 @@ Global
 		{B5F8749F-4586-462E-AF6B-BB6A7F6A09FE} = {2273AB00-04C1-4B58-94F2-976C32860A1C}
 		{5FADEC43-1F47-4340-99FE-561AE3EBEC59} = {2273AB00-04C1-4B58-94F2-976C32860A1C}
 		{AAD3F093-2D02-4E97-9679-52EF188C4BF2} = {2273AB00-04C1-4B58-94F2-976C32860A1C}
+		{E6D3793E-366A-453E-945C-5EB33AD536E0} = {1E691B54-EA6F-40AF-9072-90E0D4ECE026}
+		{1DA6EDB8-4B2B-409E-9CB6-989F887E234D} = {1E691B54-EA6F-40AF-9072-90E0D4ECE026}
+		{DE2145F6-12B6-4FA5-92B6-5487328C4642} = {669E291E-92E1-44B6-A2ED-703BAF1535AB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8426A8CD-EB80-460F-8EB5-78AF13223729}
 	EndGlobalSection
 EndGlobal

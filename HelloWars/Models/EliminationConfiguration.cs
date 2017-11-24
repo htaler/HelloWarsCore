@@ -1,6 +1,6 @@
-﻿using Common.Interfaces;
+﻿using HelloWars.Common.Interfaces;
 
-namespace Common.Models
+namespace HelloWars.Common.Models
 {
     public class EliminationConfiguration : IConfigurable
     {

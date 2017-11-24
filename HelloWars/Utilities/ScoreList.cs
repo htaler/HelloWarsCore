@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Common.Interfaces;
 using Common.Models;
+using HelloWars.Common.Interfaces;
 
-namespace Common.Utilities
+namespace HelloWars.Common.Utilities
 {
     public class ScoreList
     {
@@ -44,7 +44,7 @@ namespace Common.Utilities
             return _scoreDictionary.FirstOrDefault(f => f.Key.Id == competitor.Id).Value.Where(f=>f.Oponent.Id == oponent.Id).ToList();
         }
 
-        public void SaveScore(IDictionary<ICompetitor, double> duelResoult)
+        public void SaveScore(IDictionary<ICompetitor, int> duelResoult)
         {
             foreach (var playerRecord in duelResoult)
             {

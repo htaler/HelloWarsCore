@@ -1,13 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace HelloWars.Common.Models
+﻿namespace HelloWars.Common.Models
 {
-    public class Bomb
+    public class Bomb : ExplodableBase
     {
-        public Point Location { get; set; }
+        public Bomb(Bomb bomb) : base(bomb)
+        {
+            RoundsUntilExplodes = bomb.RoundsUntilExplodes;
+        }
+
+        public Bomb()
+        {
+        }
+
         public int RoundsUntilExplodes { get; set; }
-        public int ExplosionRadius { get; set; }
     }
 }

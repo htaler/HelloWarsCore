@@ -1,4 +1,4 @@
-﻿using Common.Interfaces;
+﻿using HelloWars.Common.Interfaces;
 
 namespace Common.Models
 {

@@ -1,4 +1,4 @@
-﻿namespace Common.Interfaces
+﻿namespace HelloWars.Common.Interfaces
 {
     public interface IConfigurable
     {

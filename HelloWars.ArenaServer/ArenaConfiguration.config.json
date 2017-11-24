@@ -1,0 +1,9 @@
+﻿{
+    "GameConfiguration": {
+      "Type": "TankBlaster",
+      "NextMoveDelay": 150
+    },
+    "EliminationConfiguration": {
+      "Type": "TournamentLadder"
+    }
+}

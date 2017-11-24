@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace HelloWars.Common.Enums
+﻿namespace HelloWars.Common.Enums
 {
     public enum BoardTile
     {

@@ -1,36 +1,21 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Common.Interfaces;
+using HelloWars.Common.Interfaces;
 
 namespace Common.Models
 {
     public class Competitor : ICompetitor
     {
-        private string _name;
-        private string _avatarUrl;
-        private string _description;
         public Guid Id { get; set; }
         public string Url { get; set; }
 
-        public bool IsVerified { get; private set; }
+        public bool IsVerified { get; set; }
 
-        public string AvatarUrl
-        {
-            get { return _avatarUrl; }
-            set { _avatarUrl = value; }
-        }
+        public string AvatarUrl { get; set; }
 
-        public string Name
-        {
-            get { return _name; }
-            set { _name = value; }
-        }
+        public string Name { get; set; }
 
-        public string Description
-        {
-            get { return _description; }
-            set { _description = value; }
-        }
+        public string Description { get; set; }
 
         public Competitor()
         {

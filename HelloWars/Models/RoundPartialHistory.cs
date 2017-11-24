@@ -1,4 +1,4 @@
-﻿namespace Common.Models
+﻿namespace HelloWars.Common.Models
 {
     public class RoundPartialHistory
     {

@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Threading.Tasks;
 
-namespace Common.Interfaces
+namespace HelloWars.Common.Interfaces
 {
     public interface ICompetitor
     {
@@ -10,7 +9,7 @@ namespace Common.Interfaces
         string Description { get; set; }
         string AvatarUrl { get; set; }
         string Url { get; set; }
-        bool IsVerified { get; }
+        bool IsVerified { get; set; }
 
     }
 }

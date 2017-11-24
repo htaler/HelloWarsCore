@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Common.Interfaces
+namespace HelloWars.Common.Interfaces
 {
     public interface IBotClient<TArenaInfo, TMove> : ICompetitor
     {

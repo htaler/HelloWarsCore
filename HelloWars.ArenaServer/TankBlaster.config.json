@@ -1,0 +1,10 @@
+﻿{
+    "MapWidth": 20,
+    "MapHeight": 20,
+    "BombBlastRadius": 2,
+    "BombRoundsUntilExplodes": 5,
+    "MissileBlastRadius": 2,
+    "RoundsBetweenMissiles": 5,
+    "RoundsBeforeIncreasingBlastRadius": 70,
+    "IsFastMissileModeEnabled" :  true 
+}

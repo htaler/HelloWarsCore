@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 
-namespace Common.Interfaces
+namespace HelloWars.Common.Interfaces
 {
     public interface IElimination
     {
-        List<ICompetitor> Bots { get; set; }
+        List<ICompetitor> Bots { get; }
         IList<ICompetitor> GetNextCompetitors();
-        void SetLastDuelResult(IDictionary<ICompetitor, double> result);
+        void SetLastDuelResult(IDictionary<ICompetitor, int> result);
         string GetGameDescription();
     }
 }

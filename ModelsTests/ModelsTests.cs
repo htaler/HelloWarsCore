@@ -1,9 +1,9 @@
 using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Common.Models;
-using Common.Utilities;
+using HelloWars.Common.Utilities;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace ModelsTests
+namespace HelloWars.Models.Tests
 {
     [TestClass]
     public class ModelsTests
